@@ -1,0 +1,11 @@
+@import url("bootstrap.css");
+#wrapper {line-height:18px;width:960px;margin:0 auto;margin-top:50px}
+h1{font-size:18px;margin:0;margin-bottom: 15px;line-height: 18px}
+h2{font-size:14px;margin:0;margin-bottom: 15px;line-height: 14px}
+.login-form {display:block;}
+.forgot-pass-form {display:none}
+.register-form{display:none}
+input[type="text"], input[type="password"]{height:30px}
+.pop .close {float:right}
+.pop .text {width:100%;}
+.pop {display:none;width:400px;position:absolute;left:50%; margin-left:-200px;z-index:999;border:solid 1px #efefef;background: #fff;;margin-top:100px;padding:20px}

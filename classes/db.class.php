@@ -38,7 +38,7 @@ class DB {
     public static function getInstance() {
 
         if (!self::$objInstance) {
-            self::$objInstance = new PDO('mysql:dbname=assistrx;localhost', 'root', 'tree024420');
+            self::$objInstance = new PDO('mysql:dbname=assistrx;localhost', 'username', 'password');
             self::$objInstance->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         }
 
